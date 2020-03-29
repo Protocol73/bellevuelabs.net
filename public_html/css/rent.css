@@ -1,0 +1,17 @@
+
+body {
+      background-size: 1300px 700px;
+      background-repeat: no-repeat;
+      background-image: url("/documents/photos/bars-multicolor.png") ;
+      background-color: black;
+}
+
+h1 {
+    color: blue;
+}
+h2 {
+    color: green;
+}
+p {
+    color: white;
+}
