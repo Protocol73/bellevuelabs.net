@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Grid Template for Bootstrap</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="grid.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Website To-Do List</h1>
+            <p class="lead">So much to do, so little time...</p>
+            <p class="lead">This is mostly my personal notes,&nbsp; some data is for simulated larger production ENV.&nbsp;</p>
+            <p class="lead">Some is for things I am working on or testing in my lab.&nbsp;</p>
+            <p><br></p>
+            <h3>March 2023 - Finish this page and automate the backend updates</h3>
+            <p><br></p>
+            <h6>There should be tiers to the pull latest website update system, one for each range of devices.&nbsp;</h6>
+            <p>Updates need to sent to a stage/test device first.</p>
+            <p>That way they can be reviewed before being pushed to production servers. Updates should NOT be directly pulled by production unless a P1+ push is needed &amp; PROD is already down/offline.<span style="font-size: 1rem;">&nbsp;</span></p>
+            <div class="row">
+                <div class="col-4">Web-Test01(Local)</div>
+                <div class="col-4">Web-Test02 (offsite?)</div>
+                <div class="col-4">Web-Test03 (public? ish?)</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">Web-Server1 @ BL</div>
+                <div class="col-sm-4">Web-Server2 @ BL</div>
+                <div class="col-sm-4">No 3rd @ BL (yet)</div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">.col-md-4</div>
+                <div class="col-md-4">.col-md-4</div>
+                <div class="col-md-4">.col-md-4</div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">.col-lg-4</div>
+                <div class="col-lg-4">.col-lg-4</div>
+                <div class="col-lg-4">.col-lg-4</div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4">Primary Location [BL]:&nbsp; 10G Cluster upgrade.</div>
+                <div class="col-xl-4">Second Location [CL] Color code Network</div>
+                <div class="col-xl-4">Failover Location [SS] Move to new IP Standard Scheme (Update VLANS,IPSec Services etc.)&nbsp;</div>
+            </div>
+            <h3>Three equal columns</h3>
+            <p>Get three equal-width columns <strong>starting at desktops and scaling to large desktops</strong>. On mobile devices, tablets and below, the columns will automatically stack.</p>
+            <div class="row">
+                <div class="col-md-4">.col-md-4</div>
+                <div class="col-md-4">.col-md-4</div>
+                <div class="col-md-4">.col-md-4</div>
+            </div>
+            <h3>Three unequal columns</h3>
+            <p>Get three columns <strong>starting at desktops and scaling to large desktops</strong> of various widths. Remember, grid columns should add up to twelve for a single horizontal block. More than that, and columns start stacking no matter the viewport.</p>
+            <div class="row">
+                <div class="col-md-3">.col-md-3</div>
+                <div class="col-md-6">.col-md-6</div>
+                <div class="col-md-3">.col-md-3</div>
+            </div>
+            <h3>Two columns</h3>
+            <p>Get two columns <strong>starting at desktops and scaling to large desktops</strong>.</p>
+            <div class="row">
+                <div class="col-md-8">.col-md-8</div>
+                <div class="col-md-4">.col-md-4</div>
+            </div>
+            <h3>Full width, single column</h3>
+            <p class="text-warning">No grid classes are necessary for full-width elements.</p>
+            <hr>
+            <h3>Two columns with two nested columns</h3>
+            <p>Per the documentation, nesting is easy&mdash;just put a row of columns within an existing column. This gives you two columns <strong>starting at desktops and scaling to large desktops</strong>, with another two (equal widths) within the larger column.</p>
+            <p>At mobile device sizes, tablets and down, these columns and their nested columns will stack.</p>
+            <div class="row">
+                <div class="col-md-8">
+                    .col-md-8
+                    <div class="row">
+                        <div class="col-md-6">.col-md-6</div>
+                        <div class="col-md-6">.col-md-6</div>
+                    </div>
+                </div>
+                <div class="col-md-4">.col-md-4</div>
+            </div>
+            <hr>
+            <h3>Mixed: mobile and desktop</h3>
+            <p>The Bootstrap v4 grid system has five tiers of classes: xs (extra small), sm (small), md (medium), lg (large), and xl (extra large). You can use nearly any combination of these classes to create more dynamic and flexible layouts.</p>
+            <p>Each tier of classes scales up, meaning if you plan on setting the same widths for xs and sm, you only need to specify xs.</p>
+            <div class="row">
+                <div class="col-12 col-md-8">.col-12 .col-md-8</div>
+                <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+                <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+                <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+            </div>
+            <div class="row">
+                <div class="col-6">.col-6</div>
+                <div class="col-6">.col-6</div>
+            </div>
+            <hr>
+            <h3>Mixed: mobile, tablet, and desktop</h3>
+            <p></p>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-8">.col-12 .col-sm-6 .col-lg-8</div>
+                <div class="col-6 col-lg-4">.col-6 .col-lg-4</div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+                <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+                <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+            </div>
+        </div>         
+
+        <!-- /container -->
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

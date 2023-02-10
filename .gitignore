@@ -1,3 +1,11 @@
+#Data Excluded from Github
+#Protocol73
+/public_html/documents/audio
+#Pinegrow_Data
 /nbproject/private/
+pinegrow.json
+_pgbackup/
 */_pgbackup/
 */*/_pgbackup
+*/pinegrow.json
+public_html/pinegrow.json
